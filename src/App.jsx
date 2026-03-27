@@ -1,6 +1,6 @@
 import React from 'react';
 import { 
-  createBrowserRouter, 
+  createHashRouter, 
   createRoutesFromElements, 
   Route, 
   RouterProvider, 
@@ -84,7 +84,7 @@ const RootLayout = () => {
   );
 };
 
-const router = createBrowserRouter(
+const router = createHashRouter(
   createRoutesFromElements(
     <Route path="/" element={<RootLayout />}>
       <Route index element={<Storefront />} />
