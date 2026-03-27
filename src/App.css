@@ -1,0 +1,48 @@
+/* App.css */
+.not-found-container {
+  text-align: center;
+  padding: 4rem 1rem;
+}
+
+.not-found-link {
+  margin-top: 1rem;
+}
+
+.navbar {
+  padding: 0.75rem 1rem;
+  border-bottom: 1px solid var(--border);
+  display: flex;
+  gap: 1rem;
+  background: white;
+  align-items: center;
+  position: sticky;
+  top: 0;
+  z-index: 100;
+}
+
+.navbar-logo {
+  font-weight: bold;
+  color: var(--primary);
+  font-size: 1.25rem;
+  margin-right: auto;
+}
+
+.nav-link-no-border {
+  border: none !important;
+}
+
+.btn-logout {
+  background: var(--error) !important;
+}
+
+.app-main {
+  width: 100%;
+}
+
+.app-main.with-padding {
+  padding: 2rem 1rem;
+}
+
+.app-main.no-padding {
+  padding: 0;
+}
